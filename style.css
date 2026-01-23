@@ -1,0 +1,23 @@
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    color:darkred;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    border-color: #aaffff;
+    border-radius: 5pt;
+    border-width: 2pt;
+    border-style: groove;
+    align-self: center;
+    align-content: center;
+}
