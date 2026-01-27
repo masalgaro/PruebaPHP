@@ -5,6 +5,14 @@ body {
 h1 {
     color:darkred;
     font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    left: 50%;
+}
+
+h2 {
+    color: darkred;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2pt;
 }
 
 p {
@@ -12,12 +20,38 @@ p {
 }
 
 form {
+    margin: 2pt;
     font-family: 'Courier New', Courier, monospace;
-    background-color: aliceblue;
-    border-color: #aaffff;
+}
+
+div {
+    margin: 2pt;
     border-radius: 5pt;
     border-width: 2pt;
-    border-style: groove;
-    align-self: center;
-    align-content: center;
+    border-style: ridge;
+    border-color: #aaffff;
+    background-color: aliceblue;
+}
+
+table {
+    margin: 2pt;
+}
+
+.formNombre {
+    position: absolute;
+    left: 8px;
+    right: 55%;
+
+}
+
+.tableNombres {
+    position: absolute;
+    right: 8px;
+    left: 55%;
+}
+
+.header {
+    border-style: double;
+    border-width: 2pt;
+    border-color: darkslategrey;
 }

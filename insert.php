@@ -1,4 +1,6 @@
 <?php
+    header('Location: index.php'); // Redirect automatically to the index page
+
     $servername = "localhost";
     $username = "root";
     $password = "";
